@@ -294,7 +294,7 @@ main() {
     readonly show_user="#[fg=$thm_iris]#(whoami)#[fg=$thm_subtle]$right_separator#[fg=$thm_subtle]$username_icon"
 
     local show_host
-    readonly show_host="$spacer#[fg=$thm_text]#H#[fg=$thm_subtle]$right_separator#[fg=$thm_subtle]$hostname_icon"
+    readonly show_host="$spacer#[fg=$thm_text]#h#[fg=$thm_subtle]$right_separator#[fg=$thm_subtle]$hostname_icon"
 
     local show_date_time
     readonly show_date_time=" #[fg=$thm_foam]$date_time#[fg=$thm_subtle]$right_separator#[fg=$thm_subtle]$date_time_icon "
